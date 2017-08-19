@@ -1,0 +1,482 @@
+body, html, #root, .root {
+  height: 100%; }
+
+body, html, #root, .root, h2, p, img {
+  margin: 0;
+  padding: 0; }
+
+footer {
+  height: 13.33vw;
+  display: flex;
+  border-top: 1px solid #efefef;
+  justify-content: space-around;
+  align-items: center;
+  background: #f8f8f7; }
+  footer a {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    height: 13.33vw;
+    width: 13.33vw;
+    position: relative; }
+    footer a span:nth-of-type(1) {
+      font-size: 7vw;
+      position: absolute; }
+    footer a span:nth-of-type(2) {
+      font-size: 2.93vw;
+      position: absolute;
+      bottom: 0.4vw; }
+  footer a:nth-of-type(1) span:nth-of-type(1) {
+    bottom: 4vw; }
+  footer a:nth-of-type(2) span:nth-of-type(1) {
+    bottom: 3vw; }
+  footer a:nth-of-type(3) span:nth-of-type(1) {
+    bottom: 2vw;
+    font-size: 8vw; }
+  footer a:nth-of-type(4) span:nth-of-type(1) {
+    bottom: 4vw;
+    font-size: 6vw; }
+  footer .active {
+    color: #f43429; }
+.main-box {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  .main-box .interval {
+    height: 2.8vw;
+    background: #f7f7f7; }
+  .main-box .header {
+    background: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 12vw; }
+    .main-box .header .dizhi {
+      font-size: 4.26vw; }
+      .main-box .header .dizhi i {
+        font-size: 2vw;
+        position: relative;
+        top: 0.8vw; }
+    .main-box .header .search {
+      position: relative; }
+      .main-box .header .search i {
+        position: absolute;
+        color: #e4e4e4;
+        left: 2.3vw; }
+      .main-box .header .search input {
+        height: 6.93vw;
+        width: 60.26vw;
+        border: 1px solid #e4e4e4;
+        border-radius: 3.46vw;
+        font-size: 2.66vw;
+        color: #e4e4e4;
+        padding-left: 8vw; }
+    .main-box .header .fujin {
+      font-size: 4.26vw; }
+      .main-box .header .fujin i {
+        font-size: 2vw;
+        position: relative;
+        color: #c4c4c4;
+        margin-left: 0.5vw; }
+  .main-box #content {
+    flex: 1;
+    overflow: hidden;
+    position: relative; }
+    .main-box #content .swiper-slide {
+      height: 49.86vw;
+      width: 100%; }
+      .main-box #content .swiper-slide img {
+        width: 100%;
+        height: 100%; }
+    .main-box #content .swiper-pagination {
+      bottom: 1vw; }
+    .main-box #content .swiper-pagination-bullet {
+      width: 5.86vw;
+      height: 1.33vw;
+      border-radius: 0.66vw;
+      background: white;
+      opacity: 0.4; }
+    .main-box #content .swiper-pagination-bullet-active {
+      opacity: 1; }
+    .main-box #content .hot-sale {
+      background: white; }
+      .main-box #content .hot-sale .headline {
+        text-align: center; }
+        .main-box #content .hot-sale .headline h2 {
+          font-size: 4.53vw;
+          line-height: 4.53vw;
+          padding-top: 4vw;
+          padding-bottom: 2.13vw; }
+        .main-box #content .hot-sale .headline p {
+          font-size: 2.67vw;
+          line-height: 2.67vw;
+          color: #888;
+          padding-bottom: 3.73vw; }
+      .main-box #content .hot-sale .swiper-slide {
+        margin-left: 2.67vw;
+        width: 77.33vw;
+        height: 77.33vw;
+        color: red;
+        overflow: hidden; }
+        .main-box #content .hot-sale .swiper-slide img {
+          width: 110vw;
+          position: relative;
+          left: -15vw;
+          height: 53.33vw;
+          display: block; }
+        .main-box #content .hot-sale .swiper-slide .product p {
+          font-size: 4vw;
+          line-height: 4.26vw;
+          padding-top: 4.8vw;
+          padding-bottom: 4vw;
+          color: #5f5f5f;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap; }
+        .main-box #content .hot-sale .swiper-slide .product div {
+          display: flex;
+          justify-content: space-between; }
+          .main-box #content .hot-sale .swiper-slide .product div span:nth-of-type(1) {
+            font-size: 4vw;
+            line-height: 5.86vw;
+            color: #f00; }
+          .main-box #content .hot-sale .swiper-slide .product div span:nth-of-type(2) {
+            display: block;
+            margin-right: 1px;
+            width: 10.66vw;
+            text-align: center;
+            color: #fca59d;
+            font-size: 2.93vw;
+            line-height: 5.86vw;
+            border: 1px solid #fca59d; }
+    .main-box #content .zizhu {
+      background: white; }
+      .main-box #content .zizhu .headline {
+        text-align: center;
+        padding-top: 3.73vw;
+        padding-bottom: 3.73vw; }
+        .main-box #content .zizhu .headline h2 {
+          font-size: 4.53vw;
+          line-height: 4.53vw;
+          margin-bottom: 2vw;
+          color: black; }
+          .main-box #content .zizhu .headline h2 span {
+            position: relative; }
+            .main-box #content .zizhu .headline h2 span i {
+              font-size: 1vw;
+              position: absolute;
+              right: -5vw; }
+        .main-box #content .zizhu .headline p {
+          font-size: 3vw;
+          line-height: 3.46vw;
+          color: #888; }
+      .main-box #content .zizhu .swiper-slide {
+        margin-left: 2.67vw;
+        width: 77.33vw;
+        height: 73vw;
+        color: red;
+        overflow: hidden; }
+        .main-box #content .zizhu .swiper-slide img {
+          width: 120vw;
+          position: relative;
+          left: -20vw;
+          height: 53.33vw;
+          display: block; }
+        .main-box #content .zizhu .swiper-slide .message {
+          display: flex;
+          justify-content: space-between;
+          align-items: center; }
+          .main-box #content .zizhu .swiper-slide .message div p:nth-of-type(1) {
+            font-size: 4vw;
+            line-height: 4vw;
+            color: #252525;
+            padding: 4.8vw 0 2.6vw 0; }
+          .main-box #content .zizhu .swiper-slide .message div p:nth-of-type(2) {
+            font-size: 3.2vw;
+            line-height: 3.2vw;
+            color: #a9a9a9;
+            padding-bottom: 4.8vw; }
+            .main-box #content .zizhu .swiper-slide .message div p:nth-of-type(2) i {
+              font-size: 3vw;
+              margin-right: 1vw; }
+          .main-box #content .zizhu .swiper-slide .message img {
+            left: -3vw;
+            border: none;
+            top: -1vw;
+            height: 8vw;
+            width: 8vw;
+            background: red;
+            border-radius: 4vw; }
+      .main-box #content .zizhu .List .list img {
+        display: block;
+        width: 100%;
+        height: 53.33vw;
+        padding: 2.67vw;
+        padding-bottom: 0; }
+      .main-box #content .zizhu .List .list .listMessage {
+        padding: 0 2.67vw 0 2.67vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+        .main-box #content .zizhu .List .list .listMessage .listMessage-left p:nth-of-type(1) {
+          font-size: 4.8vw;
+          line-height: 4.8vw;
+          color: #000;
+          padding: 4.8vw 0 2.6vw 0; }
+        .main-box #content .zizhu .List .list .listMessage .listMessage-left p:nth-of-type(2) {
+          font-size: 2.93vw;
+          line-height: 2.93vw;
+          color: #a9a9a9;
+          padding-bottom: 4.8vw; }
+          .main-box #content .zizhu .List .list .listMessage .listMessage-left p:nth-of-type(2) i {
+            font-size: 2.93vw;
+            margin-right: 1vw; }
+        .main-box #content .zizhu .List .list .listMessage img {
+          padding: 0;
+          margin-right: 3.2vw;
+          margin-bottom: 4vw;
+          border: none;
+          height: 9.6vw;
+          width: 9.6vw;
+          background: red;
+          border-radius: 4.8vw; }
+.find-box {
+  height: 100%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  .find-box .header {
+    height: 11.73vw;
+    background: #1f1f22;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .find-box .header .xiancheng_logo {
+      display: block;
+      height: 7.2vw;
+      width: 18.67vw;
+      margin-left: 2.66vw; }
+      .find-box .header .xiancheng_logo img {
+        width: 100%;
+        height: 100%; }
+    .find-box .header .dizhi {
+      color: white;
+      padding-top: 1.6vw;
+      font-size: 4.5vw;
+      margin-right: 4vw; }
+      .find-box .header .dizhi i {
+        font-size: 2vw;
+        position: relative;
+        top: 0.8vw; }
+  .find-box .content {
+    position: relative;
+    flex: 1;
+    display: flex;
+    flex-direction: column; }
+    .find-box .content .classify {
+      height: 8.8vw !important;
+      color: white;
+      display: flex;
+      background: #1f1f22;
+      justify-content: center; }
+      .find-box .content .classify .new {
+        width: 12.26vw;
+        height: 8.8vw;
+        line-height: 8.8vw;
+        text-align: center;
+        font-size: 3.46vw;
+        margin-right: 5.86vw; }
+      .find-box .content .classify .fire {
+        width: 12.26vw;
+        height: 8.8vw;
+        line-height: 8.8vw;
+        text-align: center;
+        font-size: 3.46vw;
+        margin-left: 5.86vw;
+        margin-right: 6vw; }
+    .find-box .content #gun {
+      flex: 1;
+      position: relative; }
+      .find-box .content #gun .food .person {
+        display: flex;
+        padding: 5.33vw 0 2.66vw 3.46vw; }
+        .find-box .content #gun .food .person img {
+          display: block;
+          width: 12vw;
+          height: 12vw;
+          border-radius: 6vw;
+          margin-right: 4vw; }
+        .find-box .content #gun .food .person .person_name p:nth-of-type(1) {
+          font-size: 3.46vw;
+          line-height: 6.66vw;
+          margin-bottom: 1.6vw; }
+        .find-box .content #gun .food .person .person_name p:nth-of-type(2) {
+          font-size: 2.4vw;
+          line-height: 2.4vw;
+          color: #a58896; }
+      .find-box .content #gun .food .intro {
+        font-size: 4.26vw;
+        line-height: 7.2vw;
+        padding: 0 3.46vw;
+        margin-bottom: 3.46vw;
+        color: #333;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden; }
+      .find-box .content #gun .food .img {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 3.46vw;
+        margin-bottom: 3.47vw; }
+        .find-box .content #gun .food .img img {
+          display: block;
+          width: 30.13vw;
+          height: 30.13vw;
+          overflow: hidden;
+          margin-bottom: 1.33vw;
+          margin-right: 1.33vw; }
+        .find-box .content #gun .food .img img:nth-of-type(3n) {
+          margin-right: 0; }
+      .find-box .content #gun .food .address {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 3.46vw;
+        font-size: 3.2vw; }
+        .find-box .content #gun .food .address p:nth-of-type(1) {
+          color: #59a7e1; }
+          .find-box .content #gun .food .address p:nth-of-type(1) span {
+            margin-left: 1.86vw; }
+        .find-box .content #gun .food .address p:nth-of-type(2) {
+          color: #c2b2b2; }
+          .find-box .content #gun .food .address p:nth-of-type(2) span {
+            margin-left: 1.86vw; }
+.xiangqing-box {
+  height: 100%;
+  background: white; }
+  .xiangqing-box .box-fu {
+    height: 100%;
+    display: flex;
+    flex-direction: column; }
+  .xiangqing-box #content {
+    flex: 1;
+    position: relative; }
+    .xiangqing-box #content #scroller {
+      position: absolute; }
+  .xiangqing-box header {
+    height: 12vw;
+    background: #161618;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; }
+    .xiangqing-box header a {
+      color: white; }
+      .xiangqing-box header a i {
+        font-size: 5.33vw; }
+    .xiangqing-box header h2 {
+      font-weight: 100;
+      font-size: 4.2vw;
+      width: 82.93vw;
+      text-align: center; }
+  .xiangqing-box .firstImage {
+    display: block;
+    width: 100%; }
+  .xiangqing-box section {
+    padding: 8vw 4.26vw 0 4.26vw; }
+    .xiangqing-box section .headline {
+      font-size: 6.66vw;
+      line-height: 6.66vw;
+      margin-bottom: 6.4vw;
+      font-weight: 900; }
+    .xiangqing-box section .date {
+      font-size: 3vw;
+      line-height: 3vw;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 5.3vw; }
+      .xiangqing-box section .date span:nth-of-type(1) span:nth-of-type(1) {
+        color: #beadb4;
+        margin-right: 2.66vw; }
+      .xiangqing-box section .date span:nth-of-type(1) span:nth-of-type(2) {
+        color: #598abf;
+        font-size: 3.3vw;
+        line-height: 3.3vw; }
+      .xiangqing-box section .date span:nth-of-type(2) {
+        color: #beadb4; }
+    .xiangqing-box section .intro {
+      font-size: 4.8vw;
+      line-height: 8vw;
+      margin-bottom: 4.8vw; }
+    .xiangqing-box section .shop_name {
+      font-size: 4.8vw;
+      line-height: 4.8vw;
+      color: #ff493e; }
+    .xiangqing-box section .address {
+      font-size: 3.5vw;
+      line-height: 4vw;
+      margin: 2.66vw 0 10vw 0;
+      color: #beadb4; }
+    .xiangqing-box section .jump-app {
+      margin: 10vw 0 8vw 0;
+      height: 11.46vw;
+      font-size: 4.8vw;
+      line-height: 11.46vw;
+      color: #fff;
+      background: #fd5e5e;
+      text-align: center;
+      border-radius: 1vw; }
+    .xiangqing-box section .henggang {
+      position: relative;
+      width: 46.13vw;
+      margin: 0 auto;
+      margin-bottom: 5.6vw;
+      border-top: 1px solid #e3e3e3;
+      color: #888; }
+      .xiangqing-box section .henggang p {
+        width: 22.93vw;
+        background: #fff;
+        text-align: center;
+        position: absolute;
+        font-size: 3.73vw;
+        line-height: 3.73vw;
+        top: -1.86vw;
+        left: 12vw; }
+    .xiangqing-box section .person-image {
+      display: block;
+      border: none;
+      width: 20.53vw;
+      height: 20.53vw;
+      margin: 0 auto;
+      margin-bottom: 1.33vw;
+      border-radius: 10.26vw; }
+    .xiangqing-box section .person-name {
+      font-size: 4.26vw;
+      line-height: 9.6vw;
+      text-align: center; }
+    .xiangqing-box section .person-introduce {
+      width: 64vw;
+      margin: 0 auto;
+      font-size: 2.93vw;
+      line-height: 5.33vw;
+      text-align: center;
+      color: #beadb4;
+      margin-bottom: 4.8vw; }
+  .xiangqing-box .shop_name1 {
+    font-size: 4.26vw;
+    line-height: 16vw;
+    color: #ff4992;
+    padding-left: 4.26vw; }
+  .xiangqing-box .address1 {
+    font-size: 4vw;
+    margin-bottom: 8vw;
+    color: #333;
+    padding-left: 4.26vw; }
+  .xiangqing-box .interval {
+    height: 2.8vw;
+    background: #f7f7f7; }
